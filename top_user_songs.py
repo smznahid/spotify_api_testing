@@ -24,4 +24,4 @@ for i in range(5):
     curr_artist = top_songs_dict['items'][i]['album']['artists'][0]['name']
     curr_url = top_songs_dict['items'][i]['album']['external_urls']['spotify']
     curr_song = top_songs_dict['items'][i]['name']
-    print(f"Number {i+1}. Artist: {curr_artist}, \n Number {i+1} Song: {curr_song}, \n Number {i+1}. song url: {curr_url} \n\n")
+    print(f"Number {i+1}. Artist: {curr_artist}, \n Song: {curr_song}, \n Song url: {curr_url} \n\n")
